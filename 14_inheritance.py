@@ -8,7 +8,7 @@ class Animal:
     def sound(self):
         print("Some Animal Sound")
 
-
+# sub class
 class Dog(Animal):
     def __init__(self):
         super().__init__("Kennel")
